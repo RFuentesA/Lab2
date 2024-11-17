@@ -25,5 +25,5 @@ class Fecha():
     def setAño(self, aa):
         self.__año = aa
     
-    #def __str__(self):
-    #    return print(f"{self.getDia} - {self.getMes} - {self.getAño} ")
+    def __str__(self):
+        return f"{self.getDia} - {self.getMes} - {self.getAño} "
