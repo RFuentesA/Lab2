@@ -60,3 +60,4 @@ class Usuario():
     def __str__(self):
         return "El Nombre del usuario es: " + str(self.__nombre) + " identificado con el id: " + str(self.__id) + " nacido el dia: " + str(self.__fechaNacimiento) + " en la ciudad de: " + str(self.__ciudadNacimiento) + " su numero de telefono es: " + str(self.__telefono) + " su correo electronico es: " + str(self.__email) + " y su direccion es: " + str(self.__dir)
 
+#hola mundo
