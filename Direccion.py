@@ -7,6 +7,8 @@ class Direccion:
         self.__barrio = barrio
         self.__apto = apto
     
+    def Direccion(self):
+        self.__init__
         
     def setCalle(self, c):
         self.__calle = c
