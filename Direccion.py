@@ -46,5 +46,4 @@ class Direccion:
     def getApto(self):
         return self.__apto
     
-    def __str__(self):
         return self.__calle +" "+ self.__nomenclatura +" "+ self.__barrio +" "+ self.__ciudad +" "+ self.__edificio +" "+ self.__apto
