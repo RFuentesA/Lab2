@@ -4,6 +4,9 @@ class Fecha():
         self.__mes = mm
         self.__año = aa
     
+    def Fecha(self):
+        self.__init__()
+    
     def get_dia(self):
         return
     
