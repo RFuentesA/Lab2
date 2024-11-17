@@ -1,10 +1,10 @@
 class Direccion:
     def __init__(self, calle, ciudad, nomenclatura, edificio, barrio, apto):
         self.__calle = calle
-        self.__ciudad = ciudad
         self.__nomenclatura = nomenclatura
-        self.__edificio = edificio
         self.__barrio = barrio
+        self.__ciudad = ciudad
+        self.__edificio = edificio
         self.__apto = apto
     
     def Direccion(self):
@@ -47,4 +47,5 @@ class Direccion:
         return self.__apto
     
     def __str__(self):
-        return print(self.__calle +" "+ self.__nomenclatura +" "+ self.__barrio +" "+ self.__ciudad +" "+ self.__edificio +" "+ self.__apto)
+        texto = self.getCalle + self.getNomenclatura + self.getBarrio + self.getCiudad + self.getEdificio + self.getApto
+        return texto
