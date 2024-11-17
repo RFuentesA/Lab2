@@ -1,6 +1,6 @@
-import Usuario 
-import Direccion
-import Fecha
+import Clases.Usuario as Usuario 
+import Clases.Direccion as Direccion
+import Clases.Fecha as Fecha
 
 if __name__ == '__main__':
     f1 = Fecha(10, "Mayo", 2006)
