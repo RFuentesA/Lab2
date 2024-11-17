@@ -6,12 +6,16 @@ class Direccion:
         self.__edificio = edificio
         self.__barrio = barrio
         self.__apto = apto
-        
-    def Direccion(self):
-        self.__init__
+    
         
     def setCalle(self, c):
         self.__calle = c
         
     def getCalle(self):
         return self.__calle
+    
+    def setCiudad(self, c):
+        self.__ciudad = c
+        
+    def getCiudad(self):
+        return self.__ciudad
