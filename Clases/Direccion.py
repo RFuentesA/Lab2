@@ -47,5 +47,4 @@ class Direccion:
         return self.__apto
     
     def __str__(self):
-        texto = str(self.__calle) + str(self.__nomenclatura) + str(self.__barrio) + str(self.__ciudad) + str(self.__edificio) + str(self.__apto)
-        return texto
+        return str(self.__calle) + str(self.__nomenclatura) + str(self.__barrio) + str(self.__ciudad) + str(self.__edificio) + str(self.__apto)
