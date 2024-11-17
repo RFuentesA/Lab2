@@ -58,7 +58,6 @@ class Usuario():
         self.__dir = Direccion
     
     def __str__(self):
-        texto = f"El Nombre del usuario es: {self.getNombre}, identificado con el id: {self.getId}, nacido el dia: {self.getFechaNacimiento}, 
-        en la ciudad de: {self.getCiudadNacimiento}, su numero de telefono es: {self.getTelefono}, su correo electronico es: {self.getEmail}, y su direccion es: {self.getDir}"
+        texto = f"El Nombre del usuario es: {self.getNombre}, identificado con el id: {self.getId}, nacido el dia: {self.getFechaNacimiento}, en la ciudad de: {self.getCiudadNacimiento}, su numero de telefono es: {self.getTelefono}, su correo electronico es: {self.getEmail}, y su direccion es: {self.getDir}"
         return texto
 
