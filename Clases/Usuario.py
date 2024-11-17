@@ -15,44 +15,44 @@ class Usuario():
         self.__init__()
     
     def getNombre(self):
-        return
+        return self.__nombre
     
     def setNombre(self, nombre):
         self.__nombre = nombre
     
     def getId(self):
-        return
+        return self.__id
     
     def setId(self, id):
         self.__id = id
     
     def getFechaNacimiento(self):
-        return
+        return self.__fechaNacimiento
 
     def setFechaNacimiento(self, Fecha):
         self.__fechaNacimiento = Fecha
     
     
     def getCiudadNacimiento(self):
-        return
+        return self.__ciudadNacimiento
 
     def setCiudadNacimiento(self, ciudad_nacimiento):
         ciudadNacimiento = ciudad_nacimiento
     
     def getTelefono(self):
-        return
+        return self.__telefono
     
     def setTelefono(self, tel):
         self.__telefono = tel
     
     def getEmail(self):
-        return
+        return self.__email
     
     def setEmail(self, email):
         self.__email = email
     
     def getDir(self):
-        return
+        return self.__dir
     
     def setDir(self, Direccion):
         self.__dir = Direccion
