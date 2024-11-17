@@ -7,21 +7,21 @@ class Fecha():
     def Fecha(self):
         self.__init__()
     
-    def get_dia(self):
+    def getDia(self):
         return
     
-    def set_dia(self, dd):
+    def setDia(self, dd):
         self.__dia = dd
     
-    def get_mes(self):
+    def getMes(self):
         return
 
-    def set_mes(self, mm):
+    def setMes(self, mm):
         self.__mes = mm
     
-    def get_año(self):
+    def getAño(self):
         return
     
-    def set_año(self, aa):
+    def setAño(self, aa):
         self.__año = aa
     
