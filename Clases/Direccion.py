@@ -1,5 +1,5 @@
 class Direccion:
-    def __init__(self, calle, ciudad, nomenclatura, edificio, barrio, apto):
+    def __init__(self, calle, nomenclatura, barrio, ciudad, edificio, apto):
         self.__calle = calle
         self.__nomenclatura = nomenclatura
         self.__barrio = barrio
@@ -47,5 +47,5 @@ class Direccion:
         return self.__apto
     
     def __str__(self):
-        texto = self.getCalle + self.getNomenclatura + self.getBarrio + self.getCiudad + self.getEdificio + self.getApto
+        texto = str(self.__calle) + str(self.__nomenclatura) + str(self.__barrio) + str(self.__ciudad) + str(self.__edificio) + str(self.__apto)
         return texto
