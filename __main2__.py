@@ -2,7 +2,7 @@ from Clases.Usuario import *
 from Clases.Direccion import *
 from Clases.Fecha import *
 
-#Pedido por consola literal 5
+#Pedido por consola literal 5 porque meimprime la direccion en memoria el metodo get de usuario? usu1.getNombre = #en la RAM
 print("ingrese sus datos: ")
 nombre = input("")
 id = input()
