@@ -37,7 +37,7 @@ class Usuario():
         return self.__ciudadNacimiento
 
     def setCiudadNacimiento(self, ciudad_nacimiento):
-        ciudadNacimiento = ciudad_nacimiento
+        self.__ciudadNacimiento = ciudad_nacimiento
     
     def getTelefono(self):
         return self.__telefono
