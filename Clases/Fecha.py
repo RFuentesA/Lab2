@@ -8,19 +8,19 @@ class Fecha():
         self.__init__()
     
     def getDia(self):
-        return
+        return self.__dia
     
     def setDia(self, dd):
         self.__dia = dd
     
     def getMes(self):
-        return
+        return self.__mes
 
     def setMes(self, mm):
         self.__mes = mm
     
     def getAño(self):
-        return
+        return self.__año
     
     def setAño(self, aa):
         self.__año = aa
