@@ -13,4 +13,3 @@ if __name__ == '__main__':
     usu1.setFechaNacimiento(f1)
     usu1.setDir(d1)
     print(usu1)
-    usu1 = Usuario(input(""))
