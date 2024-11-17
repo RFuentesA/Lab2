@@ -2,7 +2,7 @@ from Clases.Fecha import *
 from Clases.Direccion import *
 
 class Usuario():
-    def __init__(self, nombre, id, Fecha, ciudad_nacimiento, tel, email, Direccion):
+    def __init__(self, nombre, id, ciudad_nacimiento, tel, email):
         self.__nombre = nombre
         self.__id = id
         self.__fechaNacimiento = Fecha
@@ -31,6 +31,7 @@ class Usuario():
 
     def setFechaNacimiento(self, Fecha):
         self.__fechaNacimiento = Fecha
+    
     
     def getCiudadNacimiento(self):
         return
