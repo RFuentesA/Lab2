@@ -14,8 +14,35 @@ class Direccion:
     def getCalle(self):
         return self.__calle
     
-    def setCiudad(self, c):
-        self.__ciudad = c
+    def setCiudad(self, ci):
+        self.__ciudad = ci
         
     def getCiudad(self):
         return self.__ciudad
+    
+    def setNomenclatura(self,n):
+        self.__nomenclatura = n
+        
+    def getNomenclatura(self):
+        return self.__nomenclatura
+    
+    def setBarrio(self,b):
+        self.__barrio = b
+        
+    def getBarrio(self):
+        return self.__barrio
+    
+    def setEdificio(self, e):
+        self.__edificio = e
+        
+    def getEdificio(self):
+        return self.__edificio
+    
+    def setApto(self, a):
+        self.__apto = a
+        
+    def getApto(self):
+        return self.__apto
+    
+    def toString(self):
+        return self.__calle +" "+ self.__nomenclatura +" "+ self.__barrio +" "+ self.__ciudad +" "+ self.__edificio +" "+ self.__apto
