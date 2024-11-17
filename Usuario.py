@@ -8,6 +8,13 @@ class Usuario():
         self.__email = email
         self.__dir = Direccion
 
+    def Usuario(self):
+        self.__init__()
+    
+    def Usuario(self, nombre, id):
+        self.__nombre = nombre
+        self.__id = id
+    
     def get_nombre(self):
         return
     
