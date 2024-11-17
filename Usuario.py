@@ -1,3 +1,7 @@
+import Fecha
+import Direccion
+
+
 class Usuario():
     def __init__(self, nombre, id, Fecha, ciudad_nacimiento, tel, email, Direccion):
         self.__nombre = nombre
