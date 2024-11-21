@@ -4,7 +4,7 @@ from Clases.Fecha import *
 
 #Pedido por consola literal 5 porque meimprime la direccion en memoria el metodo get de usuario? usu1.getNombre = #en la RAM
 print("ingrese sus datos: ")
-nombre = input("")
+nombre = input("Ingrese su nombre: ")
 id = input()
 ciudadNacimiento = input()
 telefono =input()
