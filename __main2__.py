@@ -14,7 +14,7 @@ usu1 = Usuario(nombre, id, ciudadNacimiento, telefono, email)
 print("ingrese su fecha de nacimeinto")
 dd = input("Ingrese su dia de nacimiento: ")
 mm = input("Ingrese su mes de nacimiento: ")
-aa = input("Ingrese el año de nacimiento")
+aa = input("Ingrese el año de nacimiento: ")
 f = Fecha(dd, mm, aa)
 usu1.setFechaNacimiento(f)
     
